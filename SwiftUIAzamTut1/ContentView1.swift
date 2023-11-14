@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView1: View {
     var arrayList = ["samir","vishal","shailendra"]
     
     var body: some View {
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView1()
 }
