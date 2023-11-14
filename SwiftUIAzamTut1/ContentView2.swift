@@ -17,7 +17,6 @@ struct ContentView2: View {
                 name in
                 Text(name)
             }.onDelete(perform: { indexSet in
-                
                 deleteItem(indexSet: indexSet)
             })
         }.listStyle(.plain)
