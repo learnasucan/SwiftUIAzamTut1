@@ -18,6 +18,7 @@
 		88AEACA12B0F9C7B00C4630B /* UpdateTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEACA02B0F9C7B00C4630B /* UpdateTask.swift */; };
 		88AEACA32B0FB78100C4630B /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEACA22B0FB78100C4630B /* PullToRefreshView.swift */; };
 		88AEACA52B0FC4F200C4630B /* FilterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEACA42B0FC4F200C4630B /* FilterListView.swift */; };
+		88AEACA72B0FDB4F00C4630B /* TappableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEACA62B0FDB4F00C4630B /* TappableRowView.swift */; };
 		88EDC7B02B03E06A00DD0DDA /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EDC7AF2B03E06A00DD0DDA /* ContentView2.swift */; };
 		88EDC7B22B04922600DD0DDA /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EDC7B12B04922600DD0DDA /* ContentView3.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,7 @@
 		88AEACA02B0F9C7B00C4630B /* UpdateTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTask.swift; sourceTree = "<group>"; };
 		88AEACA22B0FB78100C4630B /* PullToRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
 		88AEACA42B0FC4F200C4630B /* FilterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterListView.swift; sourceTree = "<group>"; };
+		88AEACA62B0FDB4F00C4630B /* TappableRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappableRowView.swift; sourceTree = "<group>"; };
 		88EDC7AF2B03E06A00DD0DDA /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		88EDC7B12B04922600DD0DDA /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +82,7 @@
 				88AEACA02B0F9C7B00C4630B /* UpdateTask.swift */,
 				88AEACA22B0FB78100C4630B /* PullToRefreshView.swift */,
 				88AEACA42B0FC4F200C4630B /* FilterListView.swift */,
+				88AEACA62B0FDB4F00C4630B /* TappableRowView.swift */,
 				8897F3EA2B03C3FF0080ABA9 /* Assets.xcassets */,
 				8897F3EC2B03C3FF0080ABA9 /* Preview Content */,
 			);
@@ -172,6 +175,7 @@
 				88AEACA52B0FC4F200C4630B /* FilterListView.swift in Sources */,
 				88AEACA12B0F9C7B00C4630B /* UpdateTask.swift in Sources */,
 				88EDC7B22B04922600DD0DDA /* ContentView3.swift in Sources */,
+				88AEACA72B0FDB4F00C4630B /* TappableRowView.swift in Sources */,
 				88AEAC9F2B0F98C100C4630B /* ScrollviewList.swift in Sources */,
 				88AEAC992B0F6A8400C4630B /* MoveView.swift in Sources */,
 				8897F3E72B03C3FD0080ABA9 /* SwiftUIAzamTut1App.swift in Sources */,
