@@ -28,10 +28,12 @@ struct MoveView: View {
                             .fontDesign(.rounded)
                             .fontWeight(.bold)
                     }.onMove(perform: moveItems)
+                    .listRowSeparator(.hidden)
                 }.listStyle(.plain)
                     .toolbar{
                         EditButton()
                     }
+                    
                 
             }
             
