@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct ListBackgroundColor: View {
+    
+    init(){
+    UITableView.appearance().backgroundColor = UIColor.purple
+    }
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      
+        
+        List() {
+            
+            ForEach(1...20, id: \.self) { index in
+                Text("\(index)")
+            }.listRowBackground(Color.blue)
+        }
+        .scrollContentBackground(.hidden)
+//        
+//        .listRowSpacing(20)
+//        .listRowSeparator(.visible)
+        .background(.pink)
+//        .scrollContentBackground(.hidden)
+        
     }
 }
 

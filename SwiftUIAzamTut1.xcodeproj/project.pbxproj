@@ -13,6 +13,7 @@
 		8897F3EE2B03C3FF0080ABA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8897F3ED2B03C3FF0080ABA9 /* Preview Assets.xcassets */; };
 		88AEAC992B0F6A8400C4630B /* MoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEAC982B0F6A8400C4630B /* MoveView.swift */; };
 		88AEAC9B2B0F782600C4630B /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEAC9A2B0F782600C4630B /* GroupView.swift */; };
+		88AEAC9D2B0F7F2F00C4630B /* ListBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEAC9C2B0F7F2F00C4630B /* ListBackgroundColor.swift */; };
 		88EDC7B02B03E06A00DD0DDA /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EDC7AF2B03E06A00DD0DDA /* ContentView2.swift */; };
 		88EDC7B22B04922600DD0DDA /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EDC7B12B04922600DD0DDA /* ContentView3.swift */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,7 @@
 		8897F3ED2B03C3FF0080ABA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88AEAC982B0F6A8400C4630B /* MoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveView.swift; sourceTree = "<group>"; };
 		88AEAC9A2B0F782600C4630B /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		88AEAC9C2B0F7F2F00C4630B /* ListBackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBackgroundColor.swift; sourceTree = "<group>"; };
 		88EDC7AF2B03E06A00DD0DDA /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		88EDC7B12B04922600DD0DDA /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 				88EDC7B12B04922600DD0DDA /* ContentView3.swift */,
 				88AEAC982B0F6A8400C4630B /* MoveView.swift */,
 				88AEAC9A2B0F782600C4630B /* GroupView.swift */,
+				88AEAC9C2B0F7F2F00C4630B /* ListBackgroundColor.swift */,
 				8897F3EA2B03C3FF0080ABA9 /* Assets.xcassets */,
 				8897F3EC2B03C3FF0080ABA9 /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 			files = (
 				8897F3E92B03C3FD0080ABA9 /* ContentView1.swift in Sources */,
 				88EDC7B02B03E06A00DD0DDA /* ContentView2.swift in Sources */,
+				88AEAC9D2B0F7F2F00C4630B /* ListBackgroundColor.swift in Sources */,
 				88AEAC9B2B0F782600C4630B /* GroupView.swift in Sources */,
 				88EDC7B22B04922600DD0DDA /* ContentView3.swift in Sources */,
 				88AEAC992B0F6A8400C4630B /* MoveView.swift in Sources */,
