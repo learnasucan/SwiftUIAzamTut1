@@ -14,6 +14,7 @@
 		88AEAC992B0F6A8400C4630B /* MoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEAC982B0F6A8400C4630B /* MoveView.swift */; };
 		88AEAC9B2B0F782600C4630B /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEAC9A2B0F782600C4630B /* GroupView.swift */; };
 		88AEAC9D2B0F7F2F00C4630B /* ListBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEAC9C2B0F7F2F00C4630B /* ListBackgroundColor.swift */; };
+		88AEAC9F2B0F98C100C4630B /* ScrollviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEAC9E2B0F98C100C4630B /* ScrollviewList.swift */; };
 		88EDC7B02B03E06A00DD0DDA /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EDC7AF2B03E06A00DD0DDA /* ContentView2.swift */; };
 		88EDC7B22B04922600DD0DDA /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EDC7B12B04922600DD0DDA /* ContentView3.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,7 @@
 		88AEAC982B0F6A8400C4630B /* MoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveView.swift; sourceTree = "<group>"; };
 		88AEAC9A2B0F782600C4630B /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
 		88AEAC9C2B0F7F2F00C4630B /* ListBackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBackgroundColor.swift; sourceTree = "<group>"; };
+		88AEAC9E2B0F98C100C4630B /* ScrollviewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollviewList.swift; sourceTree = "<group>"; };
 		88EDC7AF2B03E06A00DD0DDA /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		88EDC7B12B04922600DD0DDA /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +70,7 @@
 				88AEAC982B0F6A8400C4630B /* MoveView.swift */,
 				88AEAC9A2B0F782600C4630B /* GroupView.swift */,
 				88AEAC9C2B0F7F2F00C4630B /* ListBackgroundColor.swift */,
+				88AEAC9E2B0F98C100C4630B /* ScrollviewList.swift */,
 				8897F3EA2B03C3FF0080ABA9 /* Assets.xcassets */,
 				8897F3EC2B03C3FF0080ABA9 /* Preview Content */,
 			);
@@ -157,6 +160,7 @@
 				88AEAC9D2B0F7F2F00C4630B /* ListBackgroundColor.swift in Sources */,
 				88AEAC9B2B0F782600C4630B /* GroupView.swift in Sources */,
 				88EDC7B22B04922600DD0DDA /* ContentView3.swift in Sources */,
+				88AEAC9F2B0F98C100C4630B /* ScrollviewList.swift in Sources */,
 				88AEAC992B0F6A8400C4630B /* MoveView.swift in Sources */,
 				8897F3E72B03C3FD0080ABA9 /* SwiftUIAzamTut1App.swift in Sources */,
 			);
