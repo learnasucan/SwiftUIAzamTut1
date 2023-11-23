@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct ContentView3: View {
+     var arrayList = ["samir","vishal","shailendra"]
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        List(arrayList.indices,id: \.self) { index  in
+            let name = arrayList[index]
+            HStack {
+                Text("\(name)")
+                    .frame(minWidth: 0,maxWidth: .infinity,minHeight: 50)
+                Spacer()
+            }.background(index % 2 == 0 ? Color.red : Color.yellow)
+        }.listStyle(.plain)
     }
 }
 
