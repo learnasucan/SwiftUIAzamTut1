@@ -18,13 +18,13 @@ struct TappableRowView: View {
                     Text("\(index)")
                     Spacer()
                 }
-                .contentShape(Rectangle())
+                .contentShape(Rectangle())//IMP
                 .onTapGesture(perform: {
                     
-                    selectedIndex = index
+                    selectedIndex = index//IMP
                 })
             }
-            selectedIndex.map{
+            selectedIndex.map{//IMP
                 Text("\($0)")
             }
         }

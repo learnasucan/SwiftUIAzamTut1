@@ -10,10 +10,10 @@ import SwiftUI
 struct ScrollToIndex: View {
     var body: some View {
         NavigationView {
-            ScrollViewReader { proxy in
+            ScrollViewReader { proxy in//IMP
                 VStack {
                     Button{
-                        proxy.scrollTo(345)
+                        proxy.scrollTo(345)//IMP
                     }label: {
                         Text("Scroll To")
                     }
@@ -21,7 +21,7 @@ struct ScrollToIndex: View {
                             Text("\(index)")
                                 .fontWeight(.black)
                                 .padding(8.0)
-                                .id(index)
+                                .id(index)//IMP
                             
                         }
                     .listStyle(.plain)

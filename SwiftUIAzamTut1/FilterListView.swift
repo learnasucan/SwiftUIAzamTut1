@@ -48,8 +48,8 @@ struct FilterListView: View {
                 }
                 .padding()
             }.listStyle(.plain)
-                .searchable(text: $searchName)
-                .onChange(of: searchName) { name in
+                .searchable(text: $searchName)//IMP
+                .onChange(of: searchName) { name in//IMP
                     if !name.isEmpty && name.count >= 1 {
                         imageList = imageList.filter{
                             $0.name.lowercased().hasPrefix(searchName.lowercased())

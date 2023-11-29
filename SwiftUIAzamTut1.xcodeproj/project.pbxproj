@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		884F12AA2B166F55008F1A73 /* ScrollToIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F12A92B166F55008F1A73 /* ScrollToIndex.swift */; };
+		884F12AE2B173F22008F1A73 /* SwipeEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F12AD2B173F22008F1A73 /* SwipeEdge.swift */; };
 		8897F3E72B03C3FD0080ABA9 /* SwiftUIAzamTut1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897F3E62B03C3FD0080ABA9 /* SwiftUIAzamTut1App.swift */; };
 		8897F3E92B03C3FD0080ABA9 /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897F3E82B03C3FD0080ABA9 /* ContentView1.swift */; };
 		8897F3EB2B03C3FF0080ABA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8897F3EA2B03C3FF0080ABA9 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		884F12A92B166F55008F1A73 /* ScrollToIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollToIndex.swift; sourceTree = "<group>"; };
+		884F12AD2B173F22008F1A73 /* SwipeEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeEdge.swift; sourceTree = "<group>"; };
 		8897F3E32B03C3FD0080ABA9 /* SwiftUIAzamTut1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAzamTut1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8897F3E62B03C3FD0080ABA9 /* SwiftUIAzamTut1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAzamTut1App.swift; sourceTree = "<group>"; };
 		8897F3E82B03C3FD0080ABA9 /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				88AEACA42B0FC4F200C4630B /* FilterListView.swift */,
 				88AEACA62B0FDB4F00C4630B /* TappableRowView.swift */,
 				884F12A92B166F55008F1A73 /* ScrollToIndex.swift */,
+				884F12AD2B173F22008F1A73 /* SwipeEdge.swift */,
 				8897F3EA2B03C3FF0080ABA9 /* Assets.xcassets */,
 				8897F3EC2B03C3FF0080ABA9 /* Preview Content */,
 			);
@@ -177,6 +180,7 @@
 				88AEACA32B0FB78100C4630B /* PullToRefreshView.swift in Sources */,
 				88AEACA52B0FC4F200C4630B /* FilterListView.swift in Sources */,
 				88AEACA12B0F9C7B00C4630B /* UpdateTask.swift in Sources */,
+				884F12AE2B173F22008F1A73 /* SwipeEdge.swift in Sources */,
 				884F12AA2B166F55008F1A73 /* ScrollToIndex.swift in Sources */,
 				88EDC7B22B04922600DD0DDA /* ContentView3.swift in Sources */,
 				88AEACA72B0FDB4F00C4630B /* TappableRowView.swift in Sources */,
