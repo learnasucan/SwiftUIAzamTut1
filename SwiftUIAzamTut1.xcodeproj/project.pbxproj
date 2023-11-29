@@ -10,6 +10,7 @@
 		884F12AA2B166F55008F1A73 /* ScrollToIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F12A92B166F55008F1A73 /* ScrollToIndex.swift */; };
 		884F12AE2B173F22008F1A73 /* SwipeEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F12AD2B173F22008F1A73 /* SwipeEdge.swift */; };
 		884F12B02B1742CC008F1A73 /* MultipleSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F12AF2B1742CB008F1A73 /* MultipleSelectionView.swift */; };
+		884F12B22B1756DC008F1A73 /* ExpandableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F12B12B1756DC008F1A73 /* ExpandableHeader.swift */; };
 		8897F3E72B03C3FD0080ABA9 /* SwiftUIAzamTut1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897F3E62B03C3FD0080ABA9 /* SwiftUIAzamTut1App.swift */; };
 		8897F3E92B03C3FD0080ABA9 /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897F3E82B03C3FD0080ABA9 /* ContentView1.swift */; };
 		8897F3EB2B03C3FF0080ABA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8897F3EA2B03C3FF0080ABA9 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		884F12A92B166F55008F1A73 /* ScrollToIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollToIndex.swift; sourceTree = "<group>"; };
 		884F12AD2B173F22008F1A73 /* SwipeEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeEdge.swift; sourceTree = "<group>"; };
 		884F12AF2B1742CB008F1A73 /* MultipleSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelectionView.swift; sourceTree = "<group>"; };
+		884F12B12B1756DC008F1A73 /* ExpandableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeader.swift; sourceTree = "<group>"; };
 		8897F3E32B03C3FD0080ABA9 /* SwiftUIAzamTut1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAzamTut1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8897F3E62B03C3FD0080ABA9 /* SwiftUIAzamTut1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAzamTut1App.swift; sourceTree = "<group>"; };
 		8897F3E82B03C3FD0080ABA9 /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				884F12A92B166F55008F1A73 /* ScrollToIndex.swift */,
 				884F12AD2B173F22008F1A73 /* SwipeEdge.swift */,
 				884F12AF2B1742CB008F1A73 /* MultipleSelectionView.swift */,
+				884F12B12B1756DC008F1A73 /* ExpandableHeader.swift */,
 				8897F3EA2B03C3FF0080ABA9 /* Assets.xcassets */,
 				8897F3EC2B03C3FF0080ABA9 /* Preview Content */,
 			);
@@ -190,6 +193,7 @@
 				88AEACA72B0FDB4F00C4630B /* TappableRowView.swift in Sources */,
 				88AEAC9F2B0F98C100C4630B /* ScrollviewList.swift in Sources */,
 				88AEAC992B0F6A8400C4630B /* MoveView.swift in Sources */,
+				884F12B22B1756DC008F1A73 /* ExpandableHeader.swift in Sources */,
 				8897F3E72B03C3FD0080ABA9 /* SwiftUIAzamTut1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
