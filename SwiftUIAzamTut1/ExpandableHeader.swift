@@ -40,7 +40,7 @@ struct ExpandableHeader: View {
                     .fontWeight(.bold)
                     .padding(.bottom,10)
                 Spacer()
-                Image(systemName: expanded ? "chevron.down" : "chevron.right")
+                Image(systemName: selectedPlace == place.name ? "chevron.down" : "chevron.right")
                 
             }.onTapGesture {
                 expanded.toggle()
