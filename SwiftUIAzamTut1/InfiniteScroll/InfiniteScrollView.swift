@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct InfiniteScrollView: View {
-    @StateObject private var articleListVM = ArticleListViewModel()
+    @StateObject private var articleListVM = ArticleListVM()
 
     var body: some View {
         
